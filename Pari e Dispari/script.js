@@ -1,9 +1,9 @@
 // SCEGLIERE TRA PARI O DISPARI
-const userEvenorOdd = prompt(`Scegli tra pari o dispari`);
+const userEvenorOdd = parseInt(prompt(`Scegli tra pari o dispari`));
 console.log(userEvenorOdd);
 
 // SCEGLIERE UN NUMERO
-const userNumber = prompt(`Scegli un numero da 1 a 5`);
+const userNumber = parseInt(prompt(`Scegli un numero da 1 a 5`));
 console.log(userNumber);
 
 // NUMERO GENERATO DAL COMPUTER
